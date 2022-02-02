@@ -1,10 +1,11 @@
-from flask import Flask
-app = Flask(__name__)
+from flask import Flask, render_template
+app = Flask(__name__, template_folder='template')
+
+
 
 @app.route('/')
-
-def index():
-    return '<h1>Hello World!</h1>'
+def hello_world():
+    return render_template("forest_fire.html")
 
 if __name__ == '__main__':
     app.run(debug=True)
