@@ -17,3 +17,10 @@
 * To run the app just type
   `python app.py`
   
+# Add files to the Folder
+* Make new folder 
+`pickle`
+* Add 3 Pickle files
+`SampleModel_0.pkl`
+`SampleModel_1.pkl`
+`SampleModel_2.pkl`
